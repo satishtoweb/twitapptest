@@ -1,1 +1,34 @@
-This is twitapptest file.
+This is angular src folder only. 
+In this source we have created two modules for two pages - 1)Login page 2) Tweets search page
+
+To view this app in localhost need to have basic setup as below mentioned --
+
+1) Node js
+2) NPM modules
+3) Angular version 8
+4) Spectre css framework
+
+How to do basic installation--
+1) Node js-
+=> Angular requires Node.js version 10.9.0 or later.
+To get Node.js, go to nodejs.org.
+
+2) NPM modules
+=> To download and install npm packages, you must have an npm package manager.  
+It uses the npm client command line interface, which is installed with Node.js by default. 
+
+3) Angular cli
+=> Install the Angular CLI globally using below command in command prompt- 
+npm install -g @angular/cli
+
+4) Spectre css framework
+=> Install with NPM using below command -
+npm install spectre.css --save
+
+or download minified version css files and put in the src/assets folder and configure in angular.json file as below-
+"styles": [
+            "src/styles.scss",
+            "src/assets/css/spectre.min.css"
+          ],
+          
+          
