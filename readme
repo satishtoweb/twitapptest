@@ -1,7 +1,7 @@
 This is angular src folder only. 
 In this source we have created two modules for two pages - 1)Login page 2) Tweets search page
 
-To view this app in localhost need to have basic setup as below mentioned --
+To view this app in localhost need to have basic setup as mentioned below  --
 
 1) Node js
 2) NPM modules
